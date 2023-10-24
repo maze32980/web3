@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CarMag</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__brand">
+          <img src="img/logo.png" alt="" class="nav__logo" />
+          <span class="nav__title">CarMag</span>
+        </div>
+        <button class="nav__catalogue">Каталог</button>
+        <form class="nav__search__container">
+          <input
+            type="search"
+            class="nav__search__input"
+            id="searchInput"
+            placeholder="Пошук"
+          />
+          <button type="submit" class="nav__search__button">🔍</button>
+        </form>
+        <a href="#" class="nav__cart">
+          <img src="img/cart.png" alt="Link to cart" />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="row">
+        <div class="col col-left">
+          <a class="col-left-item" href="#">Моторні мастила</a>
+          <a class="col-left-item" href="#">Автохімія</a>
+          <a class="col-left-item" href="#">Розхідні матеріали</a>
+          <a class="col-left-item" href="#">Ходова</a>
+          <a class="col-left-item" href="#">Підвіска</a>
+          <a class="col-left-item" href="#">Двигун</a>
+        </div>
+        <div class="col col-right">
+          <div class="main__search__container">
+            <input
+              type="text"
+              id="autoInput"
+              class="main__search__container__input"
+              placeholder="Введіть назву вашого авто"
+            />
+            <button type="submit" class="main__search__container__button">
+              ◀️
+            </button>
+          </div>
+          <img src="img/car.png" alt="car image" class="car-banner" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__col footer__col_first">
+        <div class="footer_row">
+          <img src="img/logo.png" alt="logo" class="time__logo" />
+          <div class="time__content">
+            <span class="time__content__title">CarMag</span>
+            <span class="time__content__time">04:26:20 PM</span>
+          </div>
+        </div>
+        <div class="footer_row">
+          <a href="https://www.instagram.com" class="footer__social">
+            <img src="img/instagram.png" alt="instagram link"
+          /></a>
+          <a href="https://www.facebook.com" class="footer__social">
+            <img src="img/facebook.png" alt="facebook link"
+          /></a>
+          <a href="https://www.telegram.org" class="footer__social">
+            <img src="img/telegram.png" alt="telegram link"
+          /></a>
+          <a href="Call" class="footer__social">
+            <img src="img/phone.png" alt="Phone link"
+          /></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__header footer__header_blue">Ресурси</h4>
+        <a href="#" class="footer__link">Блог</a>
+        <a href="#" class="footer__link">Безпека</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__header">Підтримка</h4>
+        <a href="#" class="footer__link">Контакти</a>
+        <a href="#" class="footer__link">Центр підтримки</a>
+      </div>
+    </footer>
+  </body>
+</html>
